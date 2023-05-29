@@ -1,0 +1,26 @@
+
+.custom-container {
+    margin-top: 10px;
+    align-content: center;
+    width: auto;
+    height: auto;
+    border: 1px solid blue;
+    border-radius: 10px;
+    border-color: orange;
+    background-color: aliceblue;
+    text-align: center;
+}
+.mb-2{
+    align-items: center;
+    text-align: auto;
+}
+.error{
+    background-color: rgba(245, 140, 132, 0.911);
+    color: '#fff';
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+#expenses{
+    list-style-type: none;  
+}
