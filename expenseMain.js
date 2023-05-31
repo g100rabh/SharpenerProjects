@@ -10,7 +10,6 @@ window.addEventListener("load", onReload);
 
 form.addEventListener("submit", onSubmit);
 
-
 function onSubmit(event){
     event.preventDefault();
     if(amt.value === "" || des.val === "" || drop.value == "Choose category"){
@@ -81,12 +80,11 @@ function removeItems(event){
             des.value = storeData.description;
             cat.value = storeData.cate;
 
-            localStorage.removeItem(desKey);
+            // localStorage.removeItem(desKey);
             expenseList.removeChild(li2);
         }
     }
 }
-
 
 function onReload() {
     for (let i = 0; i < localStorage.length; i++) {
